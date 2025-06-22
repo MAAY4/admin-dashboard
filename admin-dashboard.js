@@ -381,7 +381,7 @@ function downloadChartDataAsExcel(chart) {
     
     setTimeout(() => {
         downloadBtn.disabled = false;
-        downloadBtn.innerHTML = '<i class="fas fa-file-excel"></i> تحميل Excel';
+        downloadBtn.innerHTML = '<i class="fas fa-file-excel"></i> تحميل التقرير';
     }, 1000);
 
     showToast('success', 'تم بدء تحميل التقرير بنجاح');
